@@ -1,22 +1,58 @@
 .top-box {
     width: auto;
+    height: 300px;
     margin: 20px 10px;
-    padding: 150px;
     border: solid 5px black;
+}
+
+#purple-box {
+    padding: 100px 25px;
+    margin: 80px 10px;
+    background: purple;
+    float: left;
 }
 
 .middle-box {
     width: auto;
+    height: 300px;
     margin: 20px 10px;
-    padding: 150px;
     border: dotted 5px black;
 }
 
+#green-box {
+    padding: 130px 300px;
+    margin: 20px 45px;
+    float: left;
+    background: green;
+}
+
+#blue-circle {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin: 20px 200px 0 800px;
+    background: lightblue;
+}
+
+.tan-box {
+    width: 1400px;
+    height: 200px;
+    background:#F1E8DC;
+    box-shadow: 10px 10px 10px black;
+    margin: 50px auto;
+}
+
 footer {
-    width: 150px;
+    width: 250px;
     margin: auto;
-    padding: 150px;
+    padding: 10%;
     border: solid 2px lightgrey;
     text-align: center;
-    
+    color: blue;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    word-spacing: 250px;
+    font-size: 50px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px lightgrey;
 }
